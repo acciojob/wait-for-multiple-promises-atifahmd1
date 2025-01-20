@@ -54,7 +54,7 @@ Promise.all([pr1, pr2, pr3])
 	// alert(totalTime)
 
     totalNameCol.textContent = "Total";
-    totalTimeCol.textContent = (totalTime/1000).toFixed(3);
+    totalTimeCol.textContent = (totalTime/1000).toFixed(6);
 
     totalRow.appendChild(totalNameCol);
     totalRow.appendChild(totalTimeCol);
